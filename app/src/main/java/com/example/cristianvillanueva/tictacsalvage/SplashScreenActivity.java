@@ -18,10 +18,10 @@ public class SplashScreenActivity extends AppCompatActivity {
                 .withTargetActivity(MainActivity.class)
                 .withSplashTimeOut(5000)
                 .withBackgroundColor(Color.parseColor("#1a1b29"))
-                .withHeaderText("Header")
-                .withFooterText("Footer")
-                .withBeforeLogoText("Before Logo Text")
-                .withAfterLogoText("After Logo Text")
+                .withHeaderText("")
+                .withFooterText("")
+                .withBeforeLogoText("Cristian Villanueva")
+                .withAfterLogoText("0w0")
                 .withLogo(R.mipmap.ic_launcher_round);
 
         config.getHeaderTextView().setTextColor(Color.WHITE);
