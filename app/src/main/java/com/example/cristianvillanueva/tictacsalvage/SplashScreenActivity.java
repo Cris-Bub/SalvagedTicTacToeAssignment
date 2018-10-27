@@ -24,6 +24,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 .withAfterLogoText("0w0")
                 .withLogo(R.mipmap.ic_launcher_round);
 
+
         config.getHeaderTextView().setTextColor(Color.WHITE);
         config.getFooterTextView().setTextColor(Color.WHITE);
         config.getBeforeLogoTextView().setTextColor(Color.WHITE);
